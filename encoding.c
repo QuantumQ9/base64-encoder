@@ -8,7 +8,7 @@
 
 // Function Signtures
 
-viod basse64_encode(const char *input, const unsigned long input_length, char *output);
+void base64_encode(const char *input, const unsigned long input_length, char *output);
 void base64_decode(const char *input, const unsigned long input_length, char *output);
 
 //implement
@@ -28,6 +28,6 @@ void base64_encode(const char *input, const unsigned long input_length, char *ou
   return;
 }
 
-vouid base64_decode(const char *input, const unsigned long input_length, char *output):{
+void base64_decode(const char *input, const unsigned long input_length, char *output){
 
 }
